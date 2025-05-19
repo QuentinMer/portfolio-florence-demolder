@@ -128,7 +128,7 @@ const Contact = () => {
                 className="w-full p-2 border border-black rounded-md font-cormorant"
               />
               {isSubmitted && !formData.email.trim() && (
-                <p className="text-red-500 text-sm mt-1">L'email est obligatoire</p>
+                <p className="text-red-500 text-sm mt-1">L&apos;email est obligatoire</p>
               )}
             </div>
           </div>

@@ -14,28 +14,28 @@ const page = () => {
         </p>
         <p>
           Celui-ci accueille à chaque édition plus de 100 exposants de Belgique
-          et d'ailleurs : Luxembourg, France, Allemagne, Danemark, Italie,
+          et d&apos;ailleurs : Luxembourg, France, Allemagne, Danemark, Italie,
           Pays-Bas, Slovénie, et pour cette édition, même un anglais, un
           polonais et un suédois. Le BDM se déroule plusieurs fois par an à
           Bruxelles ou à Anvers.
         </p>
         <p>
-          Il s’agit d’un évènement organisé par une sprl constituée de cinq
-          collaborateurs : une gestionnaire d’évènement, une assistante de
+          Il s&apos;agit d&apos;un évènement organisé par une sprl constituée de cinq
+          collaborateurs : une gestionnaire d&apos;évènement, une assistante de
           communication, un manageur équitable, une responsable du personnel et
           un correspondant parisien.
         </p>
         <p>
-          L’évènement se déroule de 9h à 17h. Il propose des pass week-end qui
+          L&apos;évènement se déroule de 9h à 17h. Il propose des pass week-end qui
           donne un accès exclusif au samedi matin et au reste de week-end ou des
           pass matinée/après-midi à partir du samedi PM. Ceux-ci sont
           disponibles sur une billetterie en ligne ou réglables sur place. Nous
           nous y sommes rendus le dimanche vers 15h et le public a répondu
-          présent jusqu’à la fermeture.
+          présent jusqu&apos;à la fermeture.
         </p>
         <p>
           A noter, quelques stands de petites restaurations et de
-          rafraichissements avec la possibilité de s’installer à une table.{" "}
+          rafraichissements avec la possibilité de s&apos;installer à une table.{" "}
         </p>
       </div>
       <div className="flex flex-col mt-8 mx-[2%] gap-3 md:pt-12">
@@ -47,23 +47,23 @@ const page = () => {
             Des galeries, boutiques, antiquaires, restaurateurs de mobilier
             anciens professionnels tels que les belges ACANTHE, BAR ANTIK, Belle
             la chaise, Fynd Vintage, Funky Interior, VintageVonk, Robin de Cock,
-            LC Les Campanules et bien d’autres. Egalement des boutiques
+            LC Les Campanules et bien d&apos;autres. Egalement des boutiques
             spécialisées dans les bijoux et sacs à main de luxe/vintage telles
-            que Katheley’s ou Labellov.
+            que Katheley&apos;s ou Labellov.
           </p>
         </div>
         <hr className="mx-24 my-8 md:hidden" />
         <div className="md:block hidden my-5"></div>
         <div className="mx-[20%] text-center">
-          <h3 className="text-xl mb-2 font-semibold">Qu'y découvrir ?</h3>
+          <h3 className="text-xl mb-2 font-semibold">Qu&apos;y découvrir ?</h3>
           <p>
             Beaucoup de mobilier design et vintage, connu et populaire, mais
             aussi quelques objets plus rares, tels que des fauteuils, canapés,
-            tables, chaises mais aussi des armoires, tables d’appoint et de
+            tables, chaises mais aussi des armoires, tables d&apos;appoint et de
             chevets, bureaux et luminaires. Plus ponctuels mais présents, des
             lithographies originales non signées/numérotées de la période
-            Mid-century (Jacob’s Mid-Century Modern), une échoppe spécialisée en
-            luminaires (Midbottcentury), des vêtements et d’accessoires.{" "}
+            Mid-century (Jacob&apos;s Mid-Century Modern), une échoppe spécialisée en
+            luminaires (Midbottcentury), des vêtements et d&apos;accessoires.{" "}
           </p>
         </div>
         <hr className="mt-8 md:mx-[30%]" />
@@ -134,13 +134,13 @@ const page = () => {
       </div>
       <p className="text-center hidden md:block mt-3  md:mx-[30%]">
         Un canapé tricolore danois de 1960 imaginé par Jørgen Høj pour Niels
-        Vitsoe. Proposé par l’antiquaire français Sullyvan (styledesign50 sur
-        instagram) et doont le prix n’est pas disponible.
+        Vitsoe. Proposé par l&apos;antiquaire français Sullyvan (styledesign50 sur
+        instagram) et doont le prix n&apos;est pas disponible.
       </p>
       <p className="text-center md:hidden mt-2 mx-3">
         Un canapé tricolore danois de 1960 imaginé par Jørgen Høj pour Niels
-        Vitsoe. Proposé par l’antiquaire français Sullyvan (styledesign50 sur
-        instagram) et doont le prix n’est pas disponible.
+        Vitsoe. Proposé par l&apos;antiquaire français Sullyvan (styledesign50 sur
+        instagram) et doont le prix n&apos;est pas disponible.
       </p>
       <hr className="md:hidden mx-24 my-8" />
       <div className="flex flex-row justify-center items-center gap-5 mx-6 md:mx-[30%] md:my-24">
@@ -152,7 +152,7 @@ const page = () => {
           alt="mobilier"
         />
         <p>
-          Un ensemble d'entrée composé d’un petit banc et d’un miroir signé Kai
+          Un ensemble d&apos;entrée composé d&apos;un petit banc et d&apos;un miroir signé Kai
           Kristiansen et proposé par les néerlandais T&T Antiques au pris de
           1450€.
         </p>
@@ -161,8 +161,8 @@ const page = () => {
 
       <div className="flex flex-row justify-center items-center gap-5 mx-6 md:mx-[30%] md:my-24">
         <p>
-          Beaucoup d’ensemble de tables rondes et chaises au piètement
-          triangulaire. J’apprécie particulièrement le mélange froid de la
+          Beaucoup d&apos;ensemble de tables rondes et chaises au piètement
+          triangulaire. J&apos;apprécie particulièrement le mélange froid de la
           pierre à la chaleur du bois foncé. Ce set est proposé par la galerie
           en ligne belge Modern Living.
         </p>
@@ -186,7 +186,7 @@ const page = () => {
         />
         <p>
           Le superbe stand du fournisseur allemand de meubles vintage des années
-          1950 à 1980 Stilelite. Nous n’avons pas réussi à mieux le
+          1950 à 1980 Stilelite. Nous n&apos;avons pas réussi à mieux le
           photographier tellement il était convoité.
         </p>
       </div>
@@ -218,16 +218,16 @@ const page = () => {
       <p className="text-center hidden md:block mt-3 md:mx-[30%]">
         Le célèbre Togo dans une teinte rouge orangée mis en scène avec un tapis
         duveteux, deux majestueuses bibliothèques traversantes décorées
-        d’éléments d’astronomie et deux lampes sur pied aux notes exotiques
-        m’évoquent l’ambiance du film Mort sur le Nil de Kenneth Branagh adapté
-        du roman du même nom d’Agatha Christie.
+        d&apos;éléments d&apos;astronomie et deux lampes sur pied aux notes exotiques
+        m&apos;évoquent l&apos;ambiance du film Mort sur le Nil de Kenneth Branagh adapté
+        du roman du même nom d&apos;Agatha Christie.
       </p>
       <p className="text-center md:hidden mt-2 mx-3">
         Le célèbre Togo dans une teinte rouge orangée mis en scène avec un tapis
         duveteux, deux majestueuses bibliothèques traversantes décorées
-        d’éléments d’astronomie et deux lampes sur pied aux notes exotiques
-        m’évoquent l’ambiance du film Mort sur le Nil de Kenneth Branagh adapté
-        du roman du même nom d’Agatha Christie.
+        d&apos;éléments d&apos;astronomie et deux lampes sur pied aux notes exotiques
+        m&apos;évoquent l&apos;ambiance du film Mort sur le Nil de Kenneth Branagh adapté
+        du roman du même nom d&apos;Agatha Christie.
       </p>
       <hr className="md:hidden mx-24 my-8" />
 
@@ -291,7 +291,7 @@ const page = () => {
         />
       </div>
       <p className="text-center mx-3 mt-3">
-        Ces armoires bicolores des années 1950 et 1960 par l’architecte belge et
+        Ces armoires bicolores des années 1950 et 1960 par l&apos;architecte belge et
         designer de meuble Willy Van Der Meeren.
       </p>
       <hr className="md:hidden mx-24 my-8" />
@@ -320,8 +320,8 @@ const page = () => {
         />
         <p>
           Pour conclure, énormément de belles choses à découvrir et redécouvrir
-          lors de cette édition. En plus d’avoir constitué une agréable sortie
-          en famille et d’affiner l’oeil d’un futur petit designer ?
+          lors de cette édition. En plus d&apos;avoir constitué une agréable sortie
+          en famille et d&apos;affiner l&apos;oeil d&apos;un futur petit designer ?
         </p>
       </div>
     </div>
