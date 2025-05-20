@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 const page = () => {
@@ -50,8 +51,8 @@ const page = () => {
         <h4 className="font-semibold text-xl mb-2">
           Un panneau semi-rigide : Belgolan
         </h4>
-        <p className="text-center">Elaboré à partir de 85% de laine de mouton et 15% d'un liant bicomposant, il constitue un matériau d&apos;isolation thermique et acoustique d&apos;une belle performance en termes de durabilité et de santé (aucune émanation de COV (composés organiques volatiles)). Il peut être utilisé pour isoler des murs extérieurs, des cloisons intérieurs, des planchers, des rampants de toitures ou des combles perdus. Les panneaux sont disponibles en plusieurs épaisseurs : 40, 60, 80, 100 ou 120 mm. Leur pose consiste à les fixer/coincer dans la structure métallique ou en bois sans nécessité de les agrafer. Ce qui permet un gain de temps de 17% par rapport à d&apos;autres isolants du même type.</p>
-        <p className="text-center">A noter que le Belgolan est labellisé produit biosourcé, label dédié aux matériaux de construction combinant des avantages écologiques et économiques, donnant accès à une surprime de 25% pour les travaux d&apos;isolation.</p>
+        <p className="text-center">Elaboré à partir de 85% de laine de mouton et 15% d'un liant bicomposant, il constitue un matériau d'isolation thermique et acoustique d'une belle performance en termes de durabilité et de santé (aucune émanation de COV (composés organiques volatiles)). Il peut être utilisé pour isoler des murs extérieurs, des cloisons intérieurs, des planchers, des rampants de toitures ou des combles perdus. Les panneaux sont disponibles en plusieurs épaisseurs : 40, 60, 80, 100 ou 120 mm. Leur pose consiste à les fixer/coincer dans la structure métallique ou en bois sans nécessité de les agrafer. Ce qui permet un gain de temps de 17% par rapport à d'autres isolants du même type.</p>
+        <p className="text-center">A noter que le Belgolan est labellisé produit biosourcé, label dédié aux matériaux de construction combinant des avantages écologiques et économiques, donnant accès à une surprime de 25% pour les travaux d'isolation.</p>
         <a
         href="/pdf/belgolan.pdf"
         target="_blank"
@@ -85,7 +86,7 @@ const page = () => {
         <h4 className="font-semibold text-xl mb-2">
         De la laine en vrac : Softlan
         </h4>
-        <p className="text-center">Constitué de 100% de laine de mouton sous forme de ballot. La pose est très simple, le matériau  est à aérer et disposer à la main dans la surface à isoler. Optimal pour l&apos;isolation de planchers, le comblement de lézardes et de cavités, le bordage de fenêtres et de portes. </p>
+        <p className="text-center">Constitué de 100% de laine de mouton sous forme de ballot. La pose est très simple, le matériau  est à aérer et disposer à la main dans la surface à isoler. Optimal pour l'isolation de planchers, le comblement de lézardes et de cavités, le bordage de fenêtres et de portes. </p>
         <a
         href="/pdf/softlan.pdf"
         target="_blank"
@@ -112,7 +113,7 @@ const page = () => {
         <h4 className="font-semibold text-xl mb-2">
         Des bandes de feutre acoustique : Sonolan
         </h4>
-        <p className="text-center">Constitué de 100% de laine de mouton consolidée mécaniquement, il est prévu pour l&apos;isolation acoustique des planchers. Il promet une haute résistance au feu et une pose facile. La laine de mouton est utilisée ici sous forme de feutre en sous-couche de parquets flottants ou massifs, pour isoler des lambourdes, des planchers de véhicules ou pour tous types de chantiers en complément d&apos;isolation phonique.</p>
+        <p className="text-center">Constitué de 100% de laine de mouton consolidée mécaniquement, il est prévu pour l'isolation acoustique des planchers. Il promet une haute résistance au feu et une pose facile. La laine de mouton est utilisée ici sous forme de feutre en sous-couche de parquets flottants ou massifs, pour isoler des lambourdes, des planchers de véhicules ou pour tous types de chantiers en complément d'isolation phonique.</p>
         <a
         href="/pdf/sanolan.pdf"
         target="_blank"
@@ -150,27 +151,27 @@ const page = () => {
   </li>
   <li className="font-semibold italic mt-3">Filtre naturel <br />
   </li>
-    <span>La kératine présente dans la laine en est le secret. Elle est capable d&apos;assimiler et de neutraliser des substances nocives telles que le formaldéhyde via une réaction chimique lors de laquelle les polluants sont liés à ces molécules ou transformés. La laine permet en plus de n&apos;avoir aucune émanation de COV. </span>
-  <li className="font-semibold italic mt-3">Régulation de l&apos;humidité 
+    <span>La kératine présente dans la laine en est le secret. Elle est capable d'assimiler et de neutraliser des substances nocives telles que le formaldéhyde via une réaction chimique lors de laquelle les polluants sont liés à ces molécules ou transformés. La laine permet en plus de n'avoir aucune émanation de COV. </span>
+  <li className="font-semibold italic mt-3">Régulation de l'humidité 
   </li>
-  <span>La laine de mouton peut absorber jusqu&apos;à 33% de son poids en humidité sans perdre ses propriétés isolantes. Elle conserve également son épaisseur, sans exercer d&apos;influence néfaste sur la structure du bâtiment. De plus, la structure de la fibre protéique est résistante à l&apos;eau ce qui constitue un terrain hostile pour les moisissures. </span>
+  <span>La laine de mouton peut absorber jusqu'à 33% de son poids en humidité sans perdre ses propriétés isolantes. Elle conserve également son épaisseur, sans exercer d'influence néfaste sur la structure du bâtiment. De plus, la structure de la fibre protéique est résistante à l'eau ce qui constitue un terrain hostile pour les moisissures. </span>
   <li className="font-semibold italic mt-3">Absorption du bruit
   </li>
   <li className="font-semibold italic mt-3">Résistance au feu
   </li>
-  <span>La laine a une température d&apos;auto-inflammation comprise entre 560 et 600 °C (contre 270° pour le bois). Elle se consume lentement et s&apos;éteint facilement. Elle ne fond pas lorsqu&apos;elle brule, ne colle pas à la peau comme certaines fibres synthétiques, émet peu de fumée et aucun gaz toxique.</span>
+  <span>La laine a une température d'auto-inflammation comprise entre 560 et 600 °C (contre 270° pour le bois). Elle se consume lentement et s'éteint facilement. Elle ne fond pas lorsqu'elle brule, ne colle pas à la peau comme certaines fibres synthétiques, émet peu de fumée et aucun gaz toxique.</span>
   <li className="font-semibold italic mt-3">Faible émission
   </li>
-  <span>Son impact sur l&apos;environnement est faible de part sa production locale. L&apos;énergie grise consommée par son extraction, son recyclage et sa transformation est de 55 kWh/m³*.</span>
+  <span>Son impact sur l'environnement est faible de part sa production locale. L'énergie grise consommée par son extraction, son recyclage et sa transformation est de 55 kWh/m³*.</span>
   <li className="font-semibold italic mt-3">Répulsif contre les rongeurs
   </li>
-  <span>La laine possède des capacités de rétractation empêchant les rongeurs de s&apos;y installer. De plus, ils ne la digèrent pas.</span>
+  <span>La laine possède des capacités de rétractation empêchant les rongeurs de s'y installer. De plus, ils ne la digèrent pas.</span>
   <li className="font-semibold italic mt-3">Economique</li>
-  <span>La laine en tant qu&apos;isolant se veut économique de par ses caractéristiques techniques qui en font un matériau durable et résistant dans le temps. Une solution innovante et respectueuse de l&apos;environnement justifiant un prix d&apos;achat plus onéreux qu&apos;un autre matériau du même type, moins tolérant aux problématiques d&apos;humidité, moisissures, rongeurs, etc. et donc plus susceptible d&apos;être remplacé dans un laps de temps plus court. </span>
+  <span>La laine en tant qu'isolant se veut économique de par ses caractéristiques techniques qui en font un matériau durable et résistant dans le temps. Une solution innovante et respectueuse de l'environnement justifiant un prix d'achat plus onéreux qu'un autre matériau du même type, moins tolérant aux problématiques d'humidité, moisissures, rongeurs, etc. et donc plus susceptible d'être remplacé dans un laps de temps plus court. </span>
 </ul>
 <div className=" border border-black rounded-xl p-5 my-8">
 
-<p>En conclusion, la laine de mouton comme isolant en construction peut s&apos;avérer onéreuse mais séduisante de par ses caractéristiques techniques. Ses performances énergétiques n&apos;ont pas à rougir en regard de ses caractéristiques écologiques. Une matière si ancienne peut-elle constituer le matériau idéal de demain ? Comment le démocratiser ? Nous avons hâte de réévaluer la question d&apos;ici quelques années. </p>
+<p>En conclusion, la laine de mouton comme isolant en construction peut s'avérer onéreuse mais séduisante de par ses caractéristiques techniques. Ses performances énergétiques n'ont pas à rougir en regard de ses caractéristiques écologiques. Une matière si ancienne peut-elle constituer le matériau idéal de demain ? Comment le démocratiser ? Nous avons hâte de réévaluer la question d'ici quelques années. </p>
 </div>
 <div className="text-start">
   <h5>*A titre comparatif : </h5>

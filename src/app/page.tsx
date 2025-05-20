@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 export default function Home() {
@@ -39,7 +40,7 @@ export default function Home() {
             Florence demolder
           </h1>
           <h3 className="text-2xl font-cormorant sm:text-2xl md:text-3xl lg:text-4xl mt-2">
-            Aménagement d&apos;intérieur et décoration
+            Aménagement d'intérieur et décoration
           </h3>
         </div>
       </div>
