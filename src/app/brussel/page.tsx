@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="font-cormorant text-center">
+    <div className="text-center">
       <h1 className="font-semibold text-center my-12 md:my-24 text-2xl md:text-3xl ">
         Brussels Design Market
       </h1>

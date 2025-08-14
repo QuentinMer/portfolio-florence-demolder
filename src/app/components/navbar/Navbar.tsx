@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="font-cormorant font-semibold">
+    <div className="font-semibold">
       <ul className="mx-2 my-5 flex flex-row justify-center md:justify-between items-center">
         <li className="hidden md:block">
           <Link 

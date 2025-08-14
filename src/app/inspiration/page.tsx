@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
@@ -7,11 +6,10 @@ const page = () => {
   return (
     <>
     <div>
-      <h1 className="text-center font-cormorant font-semibold mt-12 text-xl md:text-3xl">Pour mes articles, cliquez dessus pour en savoir plus...</h1>
     </div>
     <div className="flex flex-col gap-6 mt-12 md:mt-16">
       <Link href="/brussel">
-        <div className="hover:shadow-xl border border-black rounded-xl p-2 font-cormorant md:py-8 items-center flex flex-row justify-center gap-[5%] md:gap-[20%]">
+        <div className="hover:shadow-xl border border-black rounded-xl p-2 md:py-8 items-center flex flex-row justify-center gap-[5%] md:gap-[20%]">
           <Image
             className="rounded-xl w-1/4 md:w-1/5 md:ms-[5%] border border-black"
             src="/assets/img/bxmarket.webp"
@@ -30,7 +28,7 @@ Il s'agit d'un évènement organisé par une sprl constituée de cinq collaborat
         </div>
       </Link>
       <Link href="/claire">
-      <div className="hover:shadow-xl border border-black rounded-xl p-2 font-cormorant md:py-8 items-center flex flex-row justify-center gap-[5%] md:gap-[20%]">
+      <div className="hover:shadow-xl border border-black rounded-xl p-2 md:py-8 items-center flex flex-row justify-center gap-[5%] md:gap-[20%]">
           <p className="mx-[5%] font-semibold md:hidden  text-center">C.L. Studio <br />
           Architecture d'intérieur et décoration</p>
          
@@ -48,7 +46,7 @@ Il s'agit d'un évènement organisé par une sprl constituée de cinq collaborat
         </div>
       </Link>
       <Link href="/laine">
-      <div className="hover:shadow-xl border border-black rounded-xl p-2 font-cormorant md:py-8 items-center flex flex-row justify-center gap-[5%] md:gap-[20%]">
+      <div className="hover:shadow-xl border border-black rounded-xl p-2 md:py-8 items-center flex flex-row justify-center gap-[5%] md:gap-[20%]">
           <Image
             className="rounded-xl w-1/4 md:w-1/5 border md:ms-[5%] border-black"
             src="/assets/img/moutonok.png"

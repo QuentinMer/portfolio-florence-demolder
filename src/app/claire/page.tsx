@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="font-cormorant">
+    <div>
       <h1 className="font-semibold text-center my-12 md:mt-24 text-2xl md:text-3xl ">
         C.L. Studio Architecture d'intérieur et décoration Design d'intérieur
       </h1>

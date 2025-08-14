@@ -5,10 +5,17 @@
 }
 
 @theme {
+  --font-josefin: "josefin", sans-serif;
   --font-cormorant: "cormorant", sans-serif;
 
 }
 
+@font-face {
+  font-family: "josefin";
+  src: url("/assets/font/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
 @font-face {
   font-family: "cormorant";
   src: url("/assets/font/CormorantGaramond-VariableFont_wght.ttf") format("truetype");

@@ -59,7 +59,7 @@ const Contact = () => {
             alt="phone"
             className="mb-4"
           />
-          <h2 className="text-xl font-cormorant mb-2">Florence</h2>
+          <h2 className="text-xl mb-2">Florence</h2>
           <p className="font-cormorant text-xl text-center">Demolder</p>
         </div>
         {/* Téléphone */}
@@ -71,7 +71,7 @@ const Contact = () => {
             alt="phone"
             className="mb-4"
           />
-          <h2 className="text-xl font-cormorant mb-2">Téléphone</h2>
+          <h2 className="text-xl mb-2">Téléphone</h2>
           <a href="tel:+32400000000" className="font-cormorant hover:underline">
             0400/00.00.00
           </a>
@@ -85,10 +85,10 @@ const Contact = () => {
             alt="mail"
             className="mb-4"
           />
-          <h2 className="text-xl font-cormorant mb-2">Email</h2>
+          <h2 className="text-xl mb-2">Email</h2>
           <a
             href="mailto:fdemolder@gmail.com"
-            className="font-cormorant hover:underline"
+            className=" hover:underline"
           >
             fdemolder@gmail.com
           </a>
@@ -100,7 +100,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label htmlFor="nom" className="block font-cormorant mb-2">
+              <label htmlFor="nom" className="block mb-2">
                 Nom
               </label>
               <input
@@ -109,14 +109,14 @@ const Contact = () => {
                 value={formData.nom}
                 onChange={handleChange}
                 required
-                className="w-full p-2 border border-black rounded-md font-cormorant"
+                className="w-full p-2 border border-black rounded-md"
               />
               {isSubmitted && !formData.nom.trim() && (
                 <p className="text-red-500 text-sm mt-1">Le nom est obligatoire</p>
               )}
             </div>
             <div>
-              <label htmlFor="email" className="block font-cormorant mb-2">
+              <label htmlFor="email" className="block mb-2">
                 Email
               </label>
               <input
@@ -125,7 +125,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full p-2 border border-black rounded-md font-cormorant"
+                className="w-full p-2 border border-black rounded-md"
               />
               {isSubmitted && !formData.email.trim() && (
                 <p className="text-red-500 text-sm mt-1">L&apos;email est obligatoire</p>
@@ -133,7 +133,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="message" className="block font-cormorant mb-2">
+            <label htmlFor="message" className="block mb-2">
               Message
             </label>
             <textarea
@@ -142,7 +142,7 @@ const Contact = () => {
               onChange={handleChange}
               required
               rows={6}
-              className="w-full p-2 border border-black rounded-md font-cormorant"
+              className="w-full p-2 border border-black rounded-md"
               minLength={5}
             ></textarea>
             {isSubmitted && formData.message.trim().length < 5 && (
@@ -151,14 +151,14 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className={`w-full md:w-auto px-8 py-3 bg-transparent text-black border border-black rounded-md font-cormorant transition-colors ${
+            className={`w-full md:w-auto px-8 py-3 bg-transparent text-black border border-black rounded-md transition-colors ${
               isFormValid ? 'hover:bg-black hover:text-white cursor-pointer' : 'opacity-50 cursor-not-allowed'
             }`}
           >
             Envoyer
           </button>
         </form>
-        <p className="mt-8 text-center font-cormorant">
+        <p className="mt-8 text-center">
           Une question ? Une demande ? Envoyez moi un mail, je vous répondrai
           avec plaisir ☻
         </p>

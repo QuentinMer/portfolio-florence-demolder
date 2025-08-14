@@ -31,7 +31,7 @@ const DEFAULT_ITEMS: CarouselItem[] = [
 
 const DRAG_BUFFER = 0;
 const VELOCITY_THRESHOLD = 500;
-const GAP = 38;
+const GAP = 32;
 const SPRING_OPTIONS = { type: "spring" as const, stiffness: 300, damping: 30 };
 
 export default function Carousel({
@@ -211,8 +211,8 @@ export default function Carousel({
                       alt={item.title}
                       width={1080}
                       height={608}
-                                             sizes="(max-width: 768px) 100vw, (max-width: 1080px) 90vw, 1080px"
-                      className="w-full h-auto object-contain select-none border border-black rounded-lg "
+                      sizes="(max-width: 768px) 100vw, (max-width: 1080px) 90vw, 1080px"
+                      className="w-full h-[200px] md:h-[700px] object-cover select-none border border-black rounded-lg"
                       draggable={false}
                       onDragStart={(e) => e.preventDefault()}
                       style={{ WebkitUserDrag: "none" } as React.CSSProperties}

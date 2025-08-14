@@ -4,10 +4,10 @@ const page = () => {
   return (
     <div className="mb-12">
       <div>
-        <h1 className="text-center font-cormorant font-semibold mt-12 text-xl md:text-3xl">Projets réalisés dans le cadre de ma formation</h1>
+        <h1 className="text-center font-semibold mt-12 text-xl md:text-3xl">Projets réalisés dans le cadre de ma formation</h1>
       </div>
       <div>
-        <div className="flex flex-col gap-6 mt-12 md:mt-16 items-center justify-center font-cormorant text-xl">
+        <div className="flex flex-col gap-6 mt-12 md:mt-16 items-center justify-center text-xl">
           <div>
 
             <Link href="/retroptic">
@@ -20,7 +20,7 @@ const page = () => {
               Premier projet dessiné à l’aide de l’ordinateur (VectroWorks)</p>
           </div>
         </div>
-        <div className="flex flex-col gap-6 mt-12 md:mt-16 items-center font-cormorant text-xl">
+        <div className="flex flex-col gap-6 mt-12 md:mt-16 items-center text-xl">
           <div>
 
             <Link href="/terreHappy">

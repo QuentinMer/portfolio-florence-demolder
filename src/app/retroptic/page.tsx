@@ -3,7 +3,7 @@ import { carouseConcept, carouseSituation, carouseSituationProjetee, carouseTech
 
 const page = () => {
   return (
-    <div className="flex flex-col items-center justify-center font-cormorant mt-12 gap-12">
+    <div className="flex flex-col items-center justify-center mt-12 gap-12">
       <h1 className='text-4xl font-bold uppercase'>rétr'optic</h1>
       
       <div className='text-center'>
@@ -23,7 +23,7 @@ const page = () => {
         <Carousel items={carouseTechniqueSpeciale} baseWidth={1600} />
       </div>
       <div className='text-center'>
-        <h2 className='text-xl md:text-3xl font-bold py-6'>Parachèvements, plans de détails et percpective</h2>
+        <h2 className='text-xl md:text-3xl font-bold py-6'>Parachèvements, plans de détails et perspective</h2>
         <Carousel items={carouseParachevement} baseWidth={1600} />
       </div>
     </div>

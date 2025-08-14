@@ -3,7 +3,7 @@ import { terreConcept, terreSituation, terreSituationProjetee, terreTechniqueSpe
 
 const page = () => {
   return (
-    <div className="flex flex-col items-center justify-center font-cormorant mt-12 gap-12">
+    <div className="flex flex-col items-center justify-center mt-12 gap-12">
       <h1 className='text-4xl font-bold uppercase'>Terre happy</h1>
       
       <div className='text-center'>

@@ -1,9 +1,8 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="font-cormorant">
+    <div>
       <div className="flex flex-row items-center mx-[2%] md:mx-[20%]">
         <Image
           src="/assets/img/mouton/1.jpeg"
