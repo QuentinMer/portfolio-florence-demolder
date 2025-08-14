@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className='flex flex-col mt-12 md:mt-24 border border-black rounded-xl'>
       <div className='p-3 md:px-[15%] flex flex-row items-center gap-2 md:gap-45'>
-        <Image className='rounded-full md:w-1/5' src="/assets/img/logo-ok.jpg" width={120} height={120} alt='logo'/>
+        <Image className='rounded-full md:w-1/5' src="/assets/img/logo-ok.jpg" width={600} height={600} alt='logo'/>
         <h2 className='text-xl text-center md:text-4xl font-cormorant'>Florence Demolder</h2>
       </div>
       <div className='p-3 md:px-[15%] text-center gap-5 flex flex-col font-cormorant text-xl'>
