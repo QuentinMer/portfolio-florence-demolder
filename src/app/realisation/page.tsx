@@ -1,11 +1,39 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
+import Link from "next/link"
 const page = () => {
   return (
-    <div className="border rounded-xl flex flex-col mt-24 w-2/3 justify-center items-center mx-auto p-12">
-      <Image className="rounded-full" src="/assets/img/logo-ok.jpg" width={220} height={220} alt="logo"/>
-      <h1 className="mt-12 text-center font-cormorant text-xl">Page en cours de réalisation</h1>
+    <div className="mb-12">
+      <div>
+        <h1 className="text-center font-cormorant font-semibold mt-12 text-xl md:text-3xl">Projets réalisés dans le cadre de ma formation</h1>
+      </div>
+      <div>
+        <div className="flex flex-col gap-6 mt-12 md:mt-16 items-center justify-center font-cormorant text-xl">
+          <div>
 
+            <Link href="/retroptic">
+
+              <Image src="/assets/img/retroptic/1.jpg" alt="retroptic" width={500} height={500}
+                className="hover:shadow-xl border border-black rounded-xl w-full mx-auto"/>
+
+            </Link>
+            <p className="text-center pt-6"><span className="font-semibold">Aménagement d’un magasin d’optique</span> <br />
+              Premier projet dessiné à l’aide de l’ordinateur (VectroWorks)</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-6 mt-12 md:mt-16 items-center font-cormorant text-xl">
+          <div>
+
+            <Link href="/terreHappy">
+
+              <Image src="/assets/img/terreHappy/1.png" alt="retroptic" width={500} height={500}
+                className="hover:shadow-xl border border-black rounded-xl w-full mx-auto" />
+
+            </Link>
+            <p className="text-center pt-6"><span className="font-semibold">Aménagement d’un cabinet de kinésithérapie</span> <br />
+              Projet réalisé sur papier</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
