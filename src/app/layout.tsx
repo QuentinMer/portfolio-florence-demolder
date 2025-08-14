@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className="xl:mx-24 md:mx-2 mx-2 min-h-screen flex flex-col font-joselin!">
+      <body className="xl:mx-24 md:mx-2 mx-2 min-h-screen flex flex-col font-cormorant!">
         <Navbar/>
         <main className="flex-grow">
           {children}
