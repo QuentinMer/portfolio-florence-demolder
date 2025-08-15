@@ -7,9 +7,9 @@ const page = () => {
     <div className='flex flex-col mt-12 md:mt-24 border border-black rounded-xl'>
       <div className='p-3 md:px-[15%] flex flex-row items-center gap-2 md:gap-45'>
         <Image className='rounded-full md:w-1/5' src="/assets/img/logo-ok.jpg" width={600} height={600} alt='logo'/>
-        <h2 className='text-xl text-center md:text-4xl'>Florence Demolder</h2>
+        <h2 className='text-xl text-center md:text-4xl hidden md:block'>Florence Demolder</h2>
       </div>
-      <div className='p-3 md:px-[15%] text-center gap-5 flex flex-col text-xl'>
+      <div className='p-3 md:px-[15%] font-light text-center gap-5 flex flex-col text-xl'>
         <p>Je m&apos;appelle Florence Demolder, je suis ergothérapeute de formation. J&apos;ai exercé ce métier durant 9 ans.</p>
         <hr className='mx-24 my-1 md:mx-80 md:my-3' />
         <p>En 2022, en quête de sens, j&apos;ai entamé une formation en décoration d&apos;intérieur. Prise de passion, j&apos;y ai vu une manière différente de prendre soin de la personne : en prenant soin de son intérieur. Je pense qu&apos;il est aux fondations de la vie quotidienne, il constitue l&apos;endroit où nous nous régénérons, où nous prenons racine pour s&apos;épanouir. Il est d&apos;autant plus important qu&apos;il soit organisé et fonctionnel, que sa circulation et son énergie y soit optimales tout en respectant la personnalité de ses habitants.</p>
